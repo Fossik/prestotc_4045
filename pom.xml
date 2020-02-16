@@ -8,10 +8,10 @@
 		<version>2.2.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.plantplaces</groupId>
-	<artifactId>plantplaces</artifactId>
+	<groupId>com.prestotc</groupId>
+	<artifactId>prestotc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>plantplaces</name>
+	<name>prestotc</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -34,6 +34,10 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 	</dependencies>
 
