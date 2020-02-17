@@ -6,6 +6,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class PrestotcController {
+	/*
+	 * Handle the /start endpoint
+	 */
 
 	@RequestMapping("/index") //map request to the /index html page
 	public String index(){
